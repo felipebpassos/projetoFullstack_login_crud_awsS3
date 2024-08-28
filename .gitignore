@@ -1,0 +1,14 @@
+# Ignorar diretórios de bibliotecas
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Ignorar arquivos de ambiente
+.env
+frontend/.env
+backend/.env
+
+# Ignorar pastas de build/produção, se existirem
+frontend/build/
+frontend/dist/
+backend/dist/
